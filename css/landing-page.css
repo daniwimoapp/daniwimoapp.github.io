@@ -1,0 +1,507 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.topnav {
+    font-size: 14px; 
+}
+
+.lead {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: museo300;
+}
+
+.intro-header {
+    text-align: center;
+    color: #f8f8f8;
+    height: 100vh;
+    background: url(../img/landing_photo_3.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.meemo-logo{
+    height: 30pt;
+    margin-right: 30pt;
+}
+
+.first-section{
+    margin-top: 50pt;
+    padding-left: 40pt;
+}
+
+.meemo-phone{
+    width: 210pt;
+    position: absolute;
+    bottom: 0;
+}
+
+.meemo-phone-container{
+    position: relative;
+
+
+}
+
+.second-section{
+    background-color: #f2f2f2;
+}
+
+.second-section-text{
+    padding-bottom: 80pt;
+    padding-top: 80pt;
+
+}
+
+.third-section{
+    padding-top: 80pt;
+    padding-bottom: 80pt;
+    background-color: #6ce1de;
+}
+
+.footer-section{
+    padding-top: 40pt;
+    padding-bottom: 40pt;
+    background-color: #f2f2f2;
+}
+
+.meemo-footer{
+    text-align:center;
+    padding-top: 10pt;
+    font-family: HelveticaNeueLight;
+    font-size: 20px;
+    font-weight: 300;
+    color: #a3a3a3;
+}
+
+.meemo-quote{
+    text-align:center;
+    font-family: HelveticaNeueThin;
+    font-size: 50px;
+    font-weight: 100;
+    color: #535353;
+}
+
+.meemo-author{
+    text-align:center;
+    padding-top: 10pt;
+    font-family: HelveticaNeueMedium;
+    font-size: 16px;
+    font-weight: 300;
+    color: #535353;
+}
+
+.meemo-container{
+    padding: 0pt;
+    margin: 0pt
+}
+
+.btn-meemo {
+    font-size:14pt;
+    width: 140pt;
+    padding-left: 10pt;
+    margin-bottom: 60pt;
+    text-align:center;
+    margin-top: 10pt;
+    margin-left: 0pt;
+    height: 40pt;
+    border-radius: 20pt;
+
+    color: #f5f6f5;
+    border-color: #6ce1de;
+    background-color: #6ce1de;
+    font-family: HelveticaNeueMedium;
+}
+
+.btn-meemo-dialog{
+    color: #f5f6f5;
+    border-color: #6ce1de;
+    background-color: #6ce1de;
+    font-family: HelveticaNeueMedium;
+    border-radius: 20pt;
+    padding-left: 10pt;
+}
+
+.btn-meemo-2{
+    font-size:14pt;
+    color: #535353;
+    width: 140pt;
+    text-align:center;
+    height: 40pt;
+    color: #a3a3a3;
+
+    border-radius: 20pt;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    font-family: HelveticaNeueMedium;
+}
+
+.meemo-name{
+    width: 163px;
+    height: 59px;
+    font-family: museo300;
+    src: url('../fonts/Museo300-Regular.otf');
+    font-size: 44px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #424242;
+}
+
+.meemo-name-container{
+    padding: 0px;
+}
+
+
+
+
+
+.meemo-slogan{
+    margin-top: 50pt;
+    width: 270pt;
+    font-family: HelveticaNeueLight;
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #535353;
+}
+
+.meemo-slogan-2{
+    text-align:center;
+    margin-bottom: 20pt;
+    font-family: HelveticaNeue;
+    font-size: 50px;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.meemo-description{
+    width: 220pt;
+    font-family: HelveticaNeueLight;
+    font-size: 18px;
+    font-weight: 300;
+    color: #535353;
+}
+
+.wireframe-container{
+    position: fixed;
+    bottom: 0pt
+
+
+}
+.landing-logo{
+    padding: 0pt;
+}
+
+.landing-brand{
+    padding: 0pt;
+    font-family: museo700;
+    font-size: 50pt;
+    color: #14a5cd
+}
+
+.landing-slogan{
+    padding: 0pt;
+    font-family: museo500;
+    font-size: 20pt;
+    color: #14a5cd
+}
+
+.landing-link{
+    font-family: museo300;
+    font-size: 20pt;
+    position: absolute;
+    margin-right: 20pt;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.title-why{
+    padding: 20pt;
+    width: 100%;
+    font-family: museo700;
+    font-size: 50pt;
+    color: #fbd530
+}
+
+.text-title-mission{
+    text-align: center;
+    font-family: museo300;
+    font-size: 50pt;
+    color: #7a7b7a
+}
+
+.content-section-why{
+    text-align: center;
+    background-color: #f5f6f5;
+}
+
+.content-section-features{
+    text-align: center;
+    background-color: #f5f6f5;
+    padding-bottom: 50pt
+}
+
+.content-section-mission{
+    padding-top: 20pt;
+    background-color: #f5f6f5;
+}
+
+.container-footer{
+    padding-top: 50pt;
+    padding-bottom: 50pt;
+    background-color: #404242;
+
+}
+
+.content-description-box-outside{
+    margin-left: 30pt;
+    margin-right: 30pt;
+    padding: 1pt;
+    background-color: #ffffff;
+}
+
+.content-description-box-inside{
+    margin: 12pt;
+    border-color: #fbd530;
+    border-style: solid;
+    border-width: 2pt;
+}
+
+.content-description-box-inside-no-border{
+    margin: 12pt;
+}
+
+.content-description-box-mission{
+    padding: 30pt;
+    background-color: #f5f6f5;
+}
+.text-description-big{
+    padding: 30pt;
+    padding-left: 150pt;
+    padding-right: 150pt;
+    line-height: 170%;
+    font-family: museo500;
+    font-size: 17pt;
+    color: #35536e;
+}
+
+.text-description-mission{
+    padding-right: 50pt;
+    line-height: 170%;
+    font-family: museo300;
+    font-size: 20pt;
+    color: #7a7b7a;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+
+@font-face {
+    font-family: HelveticaNeueThin;
+    src: url('../fonts/HelveticaNeue%20Thin.ttf');
+}
+
+@font-face {
+    font-family: HelveticaNeueLight;
+    src: url('../fonts/HelveticaNeue%20Light.ttf');
+}
+
+@font-face {
+    font-family: HelveticaNeue;
+    src: url('../fonts/HelveticaNeue.ttf');
+}
+
+@font-face {
+    font-family: HelveticaNeueBold;
+    src: url('../fonts/HelveticaNeueBd.ttf');
+}
+
+@font-face {
+    font-family: HelveticaNeueMedium;
+    src: url('../fonts/HelveticaNeue%20Medium.ttf');
+}
+
+@font-face {
+    font-family: museo300;
+    src: url('../fonts/Museo300-Regular.otf');
+}
+@font-face {
+    font-family: museo500;
+    src: url('../fonts/Museo500-Regular.otf');
+}
+@font-face {
+    font-family: museo700;
+    src: url('../fonts/Museo700-Regular.otf');
+}
+@font-face {
+    font-family: museo900;
+    src: url('../fonts/Museo900-Regular.otf');
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+}
+
+.info-text{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15pt;
+    color: #fdfdfd;
+    font-family: museo300;
+}
+
+.site-info{
+
+}
+.site-phone{
+    margin-left: 50pt;
+}
+
+.site-email{
+    margin-left: 50pt;
+}
+
+
+p.copyright {
+    margin: 15px 0 0;
+}
