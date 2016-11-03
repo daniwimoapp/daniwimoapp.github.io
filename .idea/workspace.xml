@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57036486-83c0-49f6-92ad-3cb50371db25" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/landing-page.css" afterPath="$PROJECT_DIR$/css/landing-page.css" />
     </list>
     <ignored path="daniwimoapp.github.io.iws" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="landing-page.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/landing-page.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8471429">
-              <caret line="363" column="18" selection-start-line="363" selection-start-column="18" selection-end-line="363" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.6542857">
+              <caret line="354" column="21" selection-start-line="354" selection-start-column="21" selection-end-line="354" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -263,8 +262,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/landing-page.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8471429">
-          <caret line="363" column="18" selection-start-line="363" selection-start-column="18" selection-end-line="363" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.6542857">
+          <caret line="354" column="21" selection-start-line="354" selection-start-column="21" selection-end-line="354" selection-end-column="21" />
           <folding />
         </state>
       </provider>
