@@ -335,6 +335,10 @@ h6 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
+.meemo-cancel{
+    opacity: 0;
+}
+
 @media(max-width:1000px) {
     .meemo-phone{
         width: 0pt;
@@ -347,7 +351,20 @@ h6 {
         padding-left: 100pt;
     }
 
-}
+    .meemo-slogan {
+        font-size: 35px;
+    }
+
+    .meemo-model{
+        position: absolute;
+        bottom: 0;
+    }
+
+    .meemo-cancel{
+        opacity: 1;
+    }
+
+    }
 
 @media(max-width:500px) {
     .first-section{
